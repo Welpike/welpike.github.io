@@ -1,0 +1,3 @@
+# welpike.github.io/robots.txt
+User-agent: googlebot
+Disallow: /url.html
