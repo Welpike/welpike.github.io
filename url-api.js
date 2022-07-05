@@ -1,0 +1,4 @@
+// Welpike - welpike.github.io
+const url_generated_show = document.getElementById("url_generated"), url_msg = document.getElementById("url_msg"), url_output = document.getElementById("url_output");function url_maker(){var url_input = document.getElementById("form-url").value;url_input = new URL(url_input);if(url_input != null){url_generated_show.style.display = 'block';url_msg.innerText = "url generated successfuly";url_output.innerText = "welpike.github.io/url.html?redirect=" + encodeURIComponent(url_input);}else{url_msg.innerText = "error";}}
+
+var param = location.search.substring(1);if(param == ""){param = encodeURIComponent("https://welpike.github.io");}var url = param.substring(param.indexOf("=")+1, param.length);var delay = 2;url = decodeURIComponent(url);setTimeout("document.location.replace(url)", delay + '000');
