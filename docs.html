@@ -22,7 +22,7 @@
         <p class="code">
             <span class="code-0">&lt;script&gt;</span><br>
             <span class="code-1">let url = "https://welpike.github.io/docs.html"; // define the url</span><br>
-            <span class="code-1">delay = 5; // define the time before the redirecting</span><br>
+            <span class="code-1">delay = 5; // define the time before the redirecting (in seconds)</span><br>
             <span class="code-1">redirect(url, delay); // call function</span><br>
             <span class="code-0">&lt;/script&gt;</span>
         </p>
@@ -30,7 +30,7 @@
         <p>This is the source code of redirect.js.</p>
         <p class="code">
             <span class="code-0">// Welpike - welpike.github.io</span><br>
-            <span class="code-0">function redirect(url,delay){ // get variables</span><br>
+            <span class="code-0">function redirect(url,delay){ // define the function, get variables</span><br>
             <span class="code-1">url = new URL(url); // transform url into a "url string"</span><br>
             <span class="code-1">setTimeout(</span><br>
             <span class="code-2">"document.location.replace(url)",  // function that replace the url of the window by the one who we define before</span><br>
