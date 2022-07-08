@@ -6,6 +6,6 @@ This project is to help you redirect your users to another page easily.
 
 - You can generate free redirect urls.
 
-One website : (welpike.github.io)[https://welpike.github.io]
+One website : https://welpike.github.io
 
 @Welpike
