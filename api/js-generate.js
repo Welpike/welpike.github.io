@@ -15,7 +15,8 @@ function url_maker(){
   }
 }
 copy=(e)=>{
-  e.preventDefault();navigator.clipboard.writeText(url_output.value).then(() => {
-    alert("url copied");
+  e.preventDefault();
+  navigator.clipboard.writeText(url_output.outerText).then(() => {
+      alert("url copied");    
   })
 }
