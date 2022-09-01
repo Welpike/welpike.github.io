@@ -6,7 +6,7 @@ function url_maker(){
   var url_input = document.getElementById("form-url").value;
   url_input = new URL(url_input);
   if(url_input != null){
-    url_generated_show.style.display = 'block';
+    url_generated_show.classList.toggle("d-none");
     url_msg.innerText = "url generated successfuly";
     url_output.innerText = "welpike.github.io/url.html?redirect=" + encodeURIComponent(url_input);
   }
