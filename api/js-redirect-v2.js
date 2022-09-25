@@ -10,11 +10,10 @@ if(params == ""){
     var url = params[0];
     var delay = params[1];
     url = url.substring(url.indexOf("=")+1, url.length);
+    if(!delay){
+        delay = 2;
+    }
     delay = delay.substring(delay.indexOf("=")+1, delay.length);
-}
-
-if(!delay){
-    delay = 2;
 }
 
 url = decodeURIComponent(url);
