@@ -13,10 +13,10 @@ if(params == ""){
     delay = delay.substring(delay.indexOf("=")+1, delay.length);
 }
 
+if(!delay){
+    delay = 2;
+}
+
 url = decodeURIComponent(url);
 
 setTimeout("window.location.replace(url)", delay + '000');
-
-// to do : 
-// - migration of all of files to github
-// - all is working
