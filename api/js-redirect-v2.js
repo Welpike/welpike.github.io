@@ -12,8 +12,9 @@ if(params == ""){
     url = url.substring(url.indexOf("=")+1, url.length);
     if(!delay){
         delay = 2;
+    }else{
+        delay = delay.substring(delay.indexOf("=")+1, delay.length);
     }
-    delay = delay.substring(delay.indexOf("=")+1, delay.length);
 }
 
 url = decodeURIComponent(url);
