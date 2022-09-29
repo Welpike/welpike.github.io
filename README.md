@@ -9,3 +9,5 @@ This project is to help you redirect your users to another page easily.
 One website : https://welpike.github.io
 
 @Welpike
+
+P.S : you can already download via GitHub a python file that can generate the same redirect urls at https://github.com/Welpike/url-software.
